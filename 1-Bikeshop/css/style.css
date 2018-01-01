@@ -100,7 +100,7 @@ body, p {
   text-align: left;
   color: #6a6a6a;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.5;
   margin-bottom: 30px;
 }
 
@@ -114,9 +114,25 @@ body, p {
   background: #3c3c3c;
   border: 0.2px solid #ffffff;
   outline: 5px solid #3c3c3c;
+  margin-top: 50px;
+}
+
+.s1 .box-right img.bike {
+  display: block;
+  margin-left: -526px;
   margin-top: 80px;
 }
 
 .s1 .box-left img {
   width: 100%;
+}
+
+.s1 .box-left p {
+  font-size: 18px;
+  font-style: italic;
+  color: #6a6a6a;
+  text-align: left;
+  padding-left: 40px;
+  margin-top: 136px;
+  line-height: 1.7; 
 }
