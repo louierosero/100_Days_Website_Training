@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 .upper-header {
   height: 50px;
   border-bottom: 1px solid #cfcfcf;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.10);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.10);
 }
 
 .upper-header h3 {
@@ -22,5 +25,35 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 
 .upper-header i {
   margin-top: 16px;
-  margin-left: 290px;
+  margin-left: 280px;
+}
+
+.social {
+  height: 50px;
+  border-left: 2px solid #cfcfcf;
+  border-right: 2px solid #cfcfcf;
+}
+
+ul.social-media {
+  margin: 6%;
+}
+
+ul.social-media li {
+  float: left;
+  padding: 0 15px;
+  border-right: 1px solid #e3e3e3;
+}
+
+
+ul.social-media li:last-of-type {
+  border-right: 0;
+}
+
+ul.social-media li.fa::before {
+  color: #999999;
+  cursor: pointer;
+}
+
+ul.social-media li.fa.active::before {
+  color: #ff9311;
 }
